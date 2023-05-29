@@ -860,8 +860,9 @@
                         fill="#FF2D20" />
                 </svg>
             </div>
+
             <p style="color:#ef4444">
-                Welcome!
+                About
             </p>
 
             <div class="mt-16">

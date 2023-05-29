@@ -77,7 +77,7 @@
         kbd,
         pre,
         samp {
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,"Liberation Mono", "Courier New", monospace;
             font-size: 1em
         }
 
@@ -860,8 +860,9 @@
                         fill="#FF2D20" />
                 </svg>
             </div>
+
             <p style="color:#ef4444">
-                Welcome!
+                Contacts
             </p>
 
             <div class="mt-16">

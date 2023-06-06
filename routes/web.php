@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\PostController;
 
@@ -27,3 +28,5 @@ use \App\Http\Controllers\PostController;
 // Route::get('/post/{id}', [PostController::class, 'create']);
 
 Route::resource('/post', PostController::class);
+
+Route::get('/contact', [ContactController::class, 'show']);
